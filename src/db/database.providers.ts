@@ -1,6 +1,8 @@
 import { Sequelize } from 'sequelize-typescript';
 import { Contacts } from '../model/contacts.entity';
 
+//Conectamos el BackEnd con la Base de datos, tabla "Contacts" creada por medio de Sequelize
+
 export const databaseProviders = [
   {
     provide: 'SEQUELIZE',

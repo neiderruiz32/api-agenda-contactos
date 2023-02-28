@@ -1,5 +1,7 @@
 import { Table, Column, Model, DataType } from 'sequelize-typescript';
 
+//Creación de la tabla por medio de Sequelize
+
 @Table
 export class Contacts extends Model {
   @Column({

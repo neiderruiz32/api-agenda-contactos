@@ -1,6 +1,8 @@
 import { Inject, Injectable } from '@nestjs/common';
 import { Contacts } from '../model/contacts.entity';
 
+//Encontramos la realización del CRUD 
+
 @Injectable()
 export class ContactsService {
   constructor(

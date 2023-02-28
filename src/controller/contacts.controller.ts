@@ -3,6 +3,8 @@ import { Body, Delete, Get, Param, Post, Put } from '@nestjs/common/decorators';
 import { ContactsService } from '../contacts/contacts.service';
 import { Contacts } from '../model/contacts.entity';
 
+//Sirve como puente para conectar el service con la vista (Endpoint)
+
 @Controller('contacts')
 export class ContactsController {
   constructor(private contactsService: ContactsService) {}

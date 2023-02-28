@@ -1,6 +1,9 @@
 import { NestFactory } from '@nestjs/core';
 import { AppModule } from './app.module';
 
+//Bootstrap para arrancar todo el programa
+//Se configuro el Cors para que las URL puedan consumir la API 
+
 async function bootstrap() {
   try {
     const app = await NestFactory.create(AppModule, {
